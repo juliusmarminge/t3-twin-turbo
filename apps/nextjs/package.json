@@ -15,6 +15,7 @@
     "@t3-tt/api": "*",
     "@t3-tt/auth": "*",
     "@t3-tt/db": "*",
+    "@t3-tt/ui": "*",
     "@t3-tt/tailwind-config": "*",
     "@tanstack/react-query": "^4.24.10",
     "@trpc/client": "^10.14.0",
