@@ -1,5 +1,5 @@
 {
-  "name": "@acme/api",
+  "name": "@t3-tt/api",
   "version": "0.1.0",
   "main": "./index.ts",
   "types": "./index.ts",
@@ -11,8 +11,8 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@acme/auth": "*",
-    "@acme/db": "*",
+    "@t3-tt/auth": "*",
+    "@t3-tt/db": "*",
     "@trpc/client": "^10.14.0",
     "@trpc/server": "^10.14.0",
     "superjson": "1.9.1",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "eslint": "^8.34.0",
-    "eslint-config-acme": "0.0.0",
+    "eslint-config-t3-tt": "0.0.0",
     "typescript": "^4.9.5"
   }
 }

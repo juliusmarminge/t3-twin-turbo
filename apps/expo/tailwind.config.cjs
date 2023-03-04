@@ -1,5 +1,5 @@
 /** @type {import("tailwindcss").Config} */
 module.exports = {
-  presets: [require("@acme/tailwind-config")],
+  presets: [require("@t3-tt/tailwind-config")],
   content: ["./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
 };

@@ -18,7 +18,7 @@ const config = {
     "^(expo(.*)$)|^(expo$)",
     "<THIRD_PARTY_MODULES>",
     "",
-    "^@acme/(.*)$",
+    "^@t3-tt/(.*)$",
     "",
     "^~/utils/(.*)$",
     "^~/components/(.*)$",

@@ -1,5 +1,5 @@
 {
-  "name": "@acme/chrome",
+  "name": "@t3-tt/chrome",
   "displayName": "Chrome ext",
   "version": "0.0.1",
   "description": "A basic Plasmo extension.",
@@ -20,7 +20,7 @@
     "superjson": "1.9.1"
   },
   "devDependencies": {
-    "@acme/api": "*",
+    "@t3-tt/api": "*",
     "@types/chrome": "0.0.219",
     "@types/node": "18.11.18",
     "@types/react": "^18.0.27",

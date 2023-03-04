@@ -1,5 +1,4 @@
+import { authOptions } from "@t3-tt/auth";
 import NextAuth from "next-auth";
-
-import { authOptions } from "@acme/auth";
 
 export default NextAuth(authOptions);
