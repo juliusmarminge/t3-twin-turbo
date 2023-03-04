@@ -1,0 +1,45 @@
+{
+  "name": "@acme/chrome",
+  "displayName": "Chrome ext",
+  "version": "0.0.1",
+  "description": "A basic Plasmo extension.",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@plasmohq/storage": "^1.2.1",
+    "@tanstack/react-query": "^4.24.10",
+    "@trpc/client": "^10.14.0",
+    "@trpc/react-query": "^10.14.0",
+    "@trpc/server": "^10.14.0",
+    "plasmo": "^0.65.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "superjson": "1.9.1"
+  },
+  "devDependencies": {
+    "@acme/api": "*",
+    "@types/chrome": "0.0.219",
+    "@types/node": "18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "manifest": {
+    "host_permissions": [
+      "http://localhost:3000/api/trpc/*"
+    ],
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "externally_connectable": {
+      "matches": [
+        "http://localhost:3000/*"
+      ]
+    }
+  }
+}
