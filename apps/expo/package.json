@@ -32,12 +32,12 @@
     "superjson": "1.9.1"
   },
   "devDependencies": {
-    "@t3-tt/api": "*",
-    "@t3-tt/tailwind-config": "*",
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
     "@expo/config-plugins": "^6.0.0",
+    "@t3-tt/api": "*",
+    "@t3-tt/tailwind-config": "*",
     "@types/react": "^18.0.27",
     "eslint": "^8.34.0",
     "eslint-config-t3-tt": "0.0.0",
