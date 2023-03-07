@@ -1,0 +1,23 @@
+{
+  "name": "@t3-tt/electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist-electron/index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.14.0",
+    "@trpc/react-query": "^10.14.0",
+    "@trpc/server": "^10.14.0",
+    "superjson": "1.9.1"
+  },
+  "devDependencies": {
+    "@t3-tt/api": "*",
+    "@vitejs/plugin-react": "^3.1.0",
+    "electron": "^23.1.2",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "vite-plugin-electron": "^0.11.1"
+  }
+}

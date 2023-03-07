@@ -21,6 +21,9 @@ next-env.d.ts
 .expo/
 dist/
 
+# electron
+dist-electron
+
 # plasmo
 .plasmo/
 
