@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@plasmohq/storage": "^1.2.1",
+    "@t3-tt/ui": "*",
     "@tanstack/react-query": "^4.24.10",
     "@trpc/client": "^10.14.0",
     "@trpc/react-query": "^10.14.0",

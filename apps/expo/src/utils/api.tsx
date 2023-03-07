@@ -1,10 +1,11 @@
 import React from "react";
 import Constants from "expo-constants";
-import { type AppRouter } from "@t3-tt/api";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { httpBatchLink } from "@trpc/client";
 import { createTRPCReact } from "@trpc/react-query";
 import superjson from "superjson";
+
+import { type AppRouter } from "@t3-tt/api";
 
 /**
  * A set of typesafe hooks for consuming your API.

@@ -1,7 +1,8 @@
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
-import { prisma } from "@t3-tt/db";
 import { type DefaultSession, type NextAuthOptions } from "next-auth";
 import DiscordProvider from "next-auth/providers/discord";
+
+import { prisma } from "@t3-tt/db";
 
 /**
  * Module augmentation for `next-auth` types
