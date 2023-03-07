@@ -18,7 +18,7 @@
     "plasmo": "^0.65.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "superjson": "1.9.1"
+    "superjson": "1.12.2"
   },
   "devDependencies": {
     "@t3-tt/api": "*",
