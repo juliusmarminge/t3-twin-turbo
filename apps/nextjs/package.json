@@ -24,6 +24,7 @@
     "@trpc/server": "^10.14.0",
     "next": "^13.2.3",
     "next-auth": "^4.20.1",
+    "nextjs-cors": "^2.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "superjson": "1.9.1",
