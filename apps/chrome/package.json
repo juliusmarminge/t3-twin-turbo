@@ -27,7 +27,7 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "prettier": "^2.8.4",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.0"
   },
   "manifest": {
     "host_permissions": [
